@@ -1,4 +1,6 @@
 import streamlit as st
 
-temp_const = [-20, -15, -10, -5, 0, 5, 10, 15, 20, 25, 30, 35, 40]
-temp = st.slider("Temperatur des Reiseortes", -15, 45, (0, 30))
+people = st.selectbox("How many people are going on a trip?", 1, 2, 3, 4, 5+) 
+days = st.slider("How many days should it be?", 0, 30)
+budget = st.slider("What is the Budget per person?", 0, 2000)
+temp = st.slider("What should the temperature of your destination be?", -15, 45, (0, 30))
