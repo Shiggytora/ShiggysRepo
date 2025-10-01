@@ -1,5 +1,8 @@
 import streamlit as st
 
+col1, col2 = st.columns([2,1])
+
+with col1:
 st.set_page_config(page_title="Background", layout = "wide")
 page_bg_img = """
 <style>
@@ -24,6 +27,7 @@ st.write("This is the background")
 
 budget_werte = [50, 100, 150, 200, 250, 300, 350, 400, 450, 500, 600, 700, 800, 900, 1000, 1200, 1400, 1600, 1800, 2000]
 
+with col2:
 people = st.selectbox("How many people are going on a trip?", (1, 2, 3, 4, "5 or more"), index=None, placeholder="Select amount of people") 
 days = st.slider("How many days should it be?", 0, 30)
 budget = st.select_slider("What is the maximum Budget per person?", budget_werte)
