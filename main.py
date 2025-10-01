@@ -27,8 +27,8 @@ with col1:
     st.write("This is the background")
 
 with col2:
-people = st.selectbox("How many people are going on a trip?", (1, 2, 3, 4, "5 or more"), index=None, placeholder="Select amount of people") 
-days = st.slider("How many days should it be?", 0, 30)
-budget = st.select_slider("What is the maximum Budget per person?", budget_werte)
-temp = st.slider("What should the temperature of your destination be?", -15, 45, (0, 30))
+    people = st.selectbox("How many people are going on a trip?", (1, 2, 3, 4, "5 or more"), index=None, placeholder="Select amount of people") 
+    days = st.slider("How many days should it be?", 0, 30)
+    budget = st.select_slider("What is the maximum Budget per person?", budget_werte)
+    temp = st.slider("What should the temperature of your destination be?", -15, 45, (0, 30))
 
