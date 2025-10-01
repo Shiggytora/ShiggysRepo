@@ -9,8 +9,7 @@ with col1:
     page_bg_img = """
     <style>
     [data-testid="stAppViewContainer"] {
-        background-image: url("https://media.licdn.com/dms/image/v2/D4E03AQE0q7xfOPV9lg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1697729277932?e=1762387200&v=beta&t=vcA0iKcY7sWIg_UIxuwXQlSblsR707x8yibqtFkkx5s");
-        background-size: 800px 800px;
+        background-image: url("https://media.licdn.com/dms/image/v2/D5603AQEs3Ql5KQubuQ/profile-displayphoto-crop_800_800/B56ZmUbYizI8AI-/0/1759131831593?e=1762387200&v=beta&t=PfNugtAun_-mxDRzvzSzkctkhOOp0PmEQZNEtpbrP9o");
         background-repeat: no-repeat;
         background-attachment: fixed;
      }
@@ -26,7 +25,7 @@ with col1:
     
 
 with col2:
-    st.title("Here you see our title")
+    st.title("PDTim")
     st.write("This is the background")
     people = st.selectbox("How many people are going on a trip?", (1, 2, 3, 4, "5 or more"), index=None, placeholder="Select amount of people") 
     days = st.slider("How many days should it be?", 0, 30)
