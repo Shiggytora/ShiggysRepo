@@ -34,8 +34,8 @@ with col2:
     temp = st.slider("What should the temperature of your destination be?", -15, 45, (0, 30))
     st.markdown("""
         <div style='display': flex; justify-content: flex-end;'>
-            <a href='https://media.licdn.com/dms/image/v2/D5603AQGpFBoQbYXGxw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1696568815679?e=1762387200&v=beta&t=BqXKJoXSKKNzukGnEvnSsl-TLbUWHzFX33ez-e11-8w' target='blank'>
-                <button style='font-size:24px; padding: 16px 32px; border-radius: 8px; border:none; cursor:pointer;'
+            <a href='https://media.licdn.com/dms/image/v2/D5603AQGpFBoQbYXGxw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1696568815679?e=1762387200&v=beta&t=BqXKJoXSKKNzukGnEvnSsl-TLbUWHzFX33ez-e11-8w' target='_blank'>
+                <button style='font-size:24px; padding: 16px 32px; border-radius: 8px; border:none; cursor:pointer;'>
                     Search
                 </button>
             </a>
