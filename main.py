@@ -32,4 +32,5 @@ with col2:
     days = st.slider("How many days should it be?", 0, 30)
     budget = st.select_slider("What is the maximum Budget per person?", budget_werte)
     temp = st.slider("What should the temperature of your destination be?", -15, 45, (0, 30))
+    suchen = st.button("Search", "https://media.licdn.com/dms/image/v2/D5603AQGpFBoQbYXGxw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1696568815679?e=1762387200&v=beta&t=BqXKJoXSKKNzukGnEvnSsl-TLbUWHzFX33ez-e11-8w")
 
