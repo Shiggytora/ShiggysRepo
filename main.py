@@ -1,5 +1,4 @@
 import streamlit as st
-from streamlit_javascript import st_javascript
 
 budget_werte = [50, 100, 150, 200, 250, 300, 350, 400, 450, 500, 600, 700, 800, 900, 1000, 1200, 1400, 1600, 1800, 2000]
 
@@ -33,6 +32,7 @@ with col2:
     days = st.slider("How many days should it be?", 0, 30)
     budget = st.select_slider("What is the maximum Budget per person?", budget_werte)
     temp = st.slider("What should the temperature of your destination be?", -15, 45, (0, 30))
-    if st.button('Search'):
-        st_javascript("window.location.href = 'https://media.licdn.com/dms/image/v2/D5603AQGpFBoQbYXGxw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1696568815679?e=1762387200&v=beta&t=BqXKJoXSKKNzukGnEvnSsl-TLbUWHzFX33ez-e11-8w'")
-
+    st.markdown("""
+        <a href='https://media.licdn.com/dms/image/v2/D5603AQGpFBoQbYXGxw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1696568815679?e=1762387200&v=beta&t=BqXKJoXSKKNzukGnEvnSsl-TLbUWHzFX33ez-e11-8w' target='blank'>
+            <button style='font-size:20px;'Search</button>
+        """, unsafe_allow_html=True)
