@@ -33,6 +33,11 @@ with col2:
     budget = st.select_slider("What is the maximum Budget per person?", budget_werte)
     temp = st.slider("What should the temperature of your destination be?", -15, 45, (0, 30))
     st.markdown("""
-        <a href='https://media.licdn.com/dms/image/v2/D5603AQGpFBoQbYXGxw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1696568815679?e=1762387200&v=beta&t=BqXKJoXSKKNzukGnEvnSsl-TLbUWHzFX33ez-e11-8w' target='blank'>
-            <button style='font-size:20px;'Search</button>
+        <div style='display': flex; justify-content: flex-end;'>
+            <a href='https://media.licdn.com/dms/image/v2/D5603AQGpFBoQbYXGxw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1696568815679?e=1762387200&v=beta&t=BqXKJoXSKKNzukGnEvnSsl-TLbUWHzFX33ez-e11-8w' target='blank'>
+                <button style='font-size:24px; padding: 16px 32px; border-radius: 8px; border:none; cursor:pointer;'
+                    Search
+                </button>
+            </a>
+        </div>
         """, unsafe_allow_html=True)
