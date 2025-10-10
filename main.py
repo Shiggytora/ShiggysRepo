@@ -9,7 +9,7 @@ with col1:
     page_bg_img = """
     <style>
     [data-testid="stAppViewContainer"] {
-        background-image: url("https://www.usnews.com/cmsmedia/37/87/158d72c34c3995fe017a2b9fc1dc/151022-beachocean-stock.jpg");
+        background-image: url("https://media.licdn.com/dms/image/v2/D4D03AQEwJZGkdfqjZA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1730054117312?e=1762992000&v=beta&t=brD4gJPqE9XkjhwWgT5DDW4rIoJUA1Jorvr3GJXHJxo");
         background-size: 900px 800px;
         background-repeat: no-repeat;
         background-attachment: fixed;
