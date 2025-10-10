@@ -10,7 +10,7 @@ with col1:
     <style>
     [data-testid="stAppViewContainer"] {
         background-image: url("https://media.licdn.com/dms/image/v2/D4D03AQEwJZGkdfqjZA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1730054117312?e=1762992000&v=beta&t=brD4gJPqE9XkjhwWgT5DDW4rIoJUA1Jorvr3GJXHJxo");
-        background-size: 900px 80px;
+        background-size: 900px 300px;
         background-repeat: no-repeat;
         background-attachment: fixed;
      }
