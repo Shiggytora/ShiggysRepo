@@ -24,8 +24,10 @@ with col1:
     """
     st.markdown(page_bg_img, unsafe_allow_html = True)
     
-
 with col2:
+
+
+with col3:
     st.title("Title")
     st.write("This is the background")
     people = st.selectbox("How many people are going on a trip?", (1, 2, 3, 4, "5 or more"), index=None, placeholder="Select amount of people") 
