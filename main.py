@@ -25,7 +25,7 @@ with col1:
     st.markdown(page_bg_img, unsafe_allow_html = True)
     
 with col2:
-    st.write("Bing Bong")
+    st.write("")
 
 with col3:
     st.title("Title")
