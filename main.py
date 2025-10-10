@@ -10,7 +10,7 @@ with col1:
     <style>
     [data-testid="stAppViewContainer"] {
         background-image: url("https://media.licdn.com/dms/image/v2/D4D03AQEwJZGkdfqjZA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1730054117312?e=1762992000&v=beta&t=brD4gJPqE9XkjhwWgT5DDW4rIoJUA1Jorvr3GJXHJxo");
-        background-size: 1700px 300px;
+        background-size: 800px 600px;
         background-repeat: no-repeat;
         background-attachment: fixed;
      }
@@ -25,7 +25,7 @@ with col1:
     st.markdown(page_bg_img, unsafe_allow_html = True)
     
 with col2:
-    st.write("")
+    st.write("Bing Bong")
 
 with col3:
     st.title("Title")
