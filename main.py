@@ -2,7 +2,7 @@ import streamlit as st
 
 budget_werte = [50, 100, 150, 200, 250, 300, 350, 400, 450, 500, 600, 700, 800, 900, 1000, 1200, 1400, 1600, 1800, 2000]
 
-col1, col2 = st.columns([2,1])
+col1, col2, col3 = st.columns([3,1])
 
 with col1:
     st.set_page_config(page_title="Background", layout = "wide")
